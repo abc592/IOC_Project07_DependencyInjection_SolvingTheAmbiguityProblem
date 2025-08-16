@@ -7,7 +7,11 @@
            http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- Bean definitions go here -->
     <bean id ="ltime" class="java.time.LocalTime" factory-method="now"/>
+    <bean id ="ldate" class="java.time.LocalDate" factory-method="now"/>
     <bean id ="wmg" class="com.nt.sbeans.WishMessageGenerator">
-    	<property name ="time" ref="ltime"/>
+     <constructor-arg name="time" ref="ltime"/>
+     <constructor-arg name="date" ref="ldate"/>
+     <constructor-arg name="age" value="20"/>
+     <constructor-arg name="email" value="raja@rani.com"/>
     </bean>
 </beans>
