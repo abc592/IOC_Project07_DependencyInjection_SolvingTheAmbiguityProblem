@@ -20,6 +20,7 @@ public class AppConfig {
 		return LocalDate.now();
 		
 	}
+	//@primary
 	@Bean(name="ldate1")
 	@Primary
 	public LocalDate createDate1() {

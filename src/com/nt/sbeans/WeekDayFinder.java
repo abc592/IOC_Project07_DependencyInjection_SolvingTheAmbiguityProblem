@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component("wx")
+//@Qualifier("ldate2")
 public class WeekDayFinder {
 	@Autowired
 	@Qualifier("ldate")
