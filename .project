@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>IOC_Proj04_CyclicDI_ConstructorInjection</name>
+	<name>IOC_Proj05_DependencyInjection_Xml+AnnotationDriven</name>
 	<comment></comment>
 	<projects>
 	</projects>
